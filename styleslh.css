@@ -5823,12 +5823,19 @@ footer.color-yellow .footer-bottom p a {
 }
 
 .brand-logo {
-    height: 42px;
+    height: 350%;          /* 🔥 kunci utama */          /* biar proporsional */
+    object-fit: contain;
+}
+
+.logo-phg {
+  height: 170px;
+    margin-left: 12px;
 }
 
 .brand-divider {
-    width: 0.5px;
-    height: 30px;
+    width: 1px;
+    height: 28px;
+    margin: 0 10px;
     background: rgb(18, 9, 77);
 }
 
@@ -5839,7 +5846,6 @@ footer.color-yellow .footer-bottom p a {
     color: var(--color-paragraph);
     white-space: nowrap;
 }
-
 /* ============================================================== 
      # Preloader 
 =================================================================== */
