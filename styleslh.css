@@ -5846,6 +5846,14 @@ footer.color-yellow .footer-bottom p a {
     color: var(--color-paragraph);
     white-space: nowrap;
 }
+/* Desktop only */
+@media (min-width: 768px) {
+  .brand-divider,
+  .brand-text {
+    display: none !important;
+  }
+}
+
 /* ============================================================== 
      # Preloader 
 =================================================================== */

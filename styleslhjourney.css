@@ -5871,6 +5871,13 @@ footer.color-yellow .footer-bottom p a {
 .navbar {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
+@media (max-width: 768px) {
+  .navbar .navbar-brand .brand-text,
+  .navbar .navbar-brand .brand-divider {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
 
 
 
