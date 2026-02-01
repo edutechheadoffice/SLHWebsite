@@ -5823,7 +5823,7 @@ footer.color-yellow .footer-bottom p a {
 }
 
 .brand-logo {
-    height: 350%;          /* 🔥 kunci utama */          /* biar proporsional */
+    height: 170px;          /* 🔥 kunci utama */          /* biar proporsional */
     object-fit: contain;
 }
 
