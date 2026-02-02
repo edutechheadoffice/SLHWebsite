@@ -5847,10 +5847,13 @@ footer.color-yellow .footer-bottom p a {
     white-space: nowrap;
 }
 /* Desktop only */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .brand-divider,
   .brand-text {
     display: none !important;
+  }
+  .brand-logo {
+   width: 50%;          /* 🔥 kunci utama */
   }
 }
 
